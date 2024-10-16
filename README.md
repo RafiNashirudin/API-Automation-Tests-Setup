@@ -1,4 +1,4 @@
-## Installation
+## Instalasi
 
 1. Kloning repositori:
 
@@ -19,4 +19,18 @@ Untuk menjalankan tes, gunakan perintah berikut:
 
 ```bash
 npm test
+```
+
+## Struktur Projek
+
+```bash
+api-automation-tests/
+│
+├── tests/
+│   ├── getUser.test.js
+│   ├── postUser.test.js
+│   ├── deleteUser.test.js
+│   └── putUser.test.js
+├── package.json
+└── README.md
 ```
